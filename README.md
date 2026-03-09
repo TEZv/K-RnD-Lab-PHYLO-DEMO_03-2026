@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![HuggingFace](https://img.shields.io/badge/🤗-Live_Demo-yellow)](https://huggingface.co/spaces/K-RnD-Lab/PHYLO-DEMO_03-2026/)
-[![GitHub](https://img.shields.io/badge/GitHub-K--RnD--Lab-orange)](https://github.com/TEZv/K-RnD-Lab-PHYLO-03_2026)
+[![GitHub](https://img.shields.io/badge/GitHub-K--RnD--Lab-orange)](https://github.com/TEZv/K-RnD-Lab-PHYLO-DEMO_03-2026)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 > **Open-source computational biology research by Oksana Kolisnyk**
@@ -85,7 +85,7 @@ K-RnD-Lab-PHYLO-03_2026/
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/TEZv/K-RnD-Lab-PHYLO-03_2026.git
+git clone https://github.com/TEZv/K-RnD-Lab-PHYLO-DEMO_03-2026.git
 cd K-RnD-Lab-PHYLO-03_2026
 
 # Run the interactive demo locally
@@ -111,7 +111,7 @@ jupyter notebook execution_trace.ipynb
   year      = {2026},
   month     = {March},
   publisher = {GitHub},
-  url       = {https://github.com/TEZv/K-RnD-Lab-PHYLO-03_2026},
+  url       = {https://github.com/TEZv/K-RnD-Lab-PHYLO-DEMO_03-2026},
   note      = {10 open-source computational biology tools spanning
                RNA therapeutics, nanoparticle delivery, and genomics}
 }
