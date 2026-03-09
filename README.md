@@ -1,7 +1,7 @@
 # K R&D Lab — Computational Biology Research Suite
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![HuggingFace](https://img.shields.io/badge/🤗-Live_Demo-yellow)](https://huggingface.co/spaces/K-RnD-Lab/PHYLO-CORE_03-2026)
+[![HuggingFace](https://img.shields.io/badge/🤗-Live_Demo-yellow)](https://huggingface.co/spaces/K-RnD-Lab/PHYLO-DEMO_03-2026/)
 [![GitHub](https://img.shields.io/badge/GitHub-K--RnD--Lab-orange)](https://github.com/TEZv/K-RnD-Lab-PHYLO-03_2026)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
@@ -45,7 +45,7 @@ interactive demo — no coding required.
 
 All 10 tools in one Space — no installation required:
 
-[![Open Demo](https://img.shields.io/badge/🤗-Open_Interactive_Demo-yellow?style=for-the-badge)](https://huggingface.co/spaces/K-RnD-Lab/PHYLO-CORE_03-2026)
+[![Open Demo](https://img.shields.io/badge/🤗-Open_Interactive_Demo-yellow?style=for-the-badge)](https://huggingface.co/spaces/K-RnD-Lab/PHYLO-DEMO_03-2026/)
 
 ---
 
