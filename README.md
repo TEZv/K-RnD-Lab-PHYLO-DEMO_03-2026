@@ -204,6 +204,7 @@ S7 — Learning, Cognition & Adaptive Systems
 This means:
 - **primary scientific home** → `S7`
 - **optional public-case mirror** → `E4` in the entrepreneurship sphere
+- **suggested repo target** → `S7-Master-Prep-Analytics`
 
 ---
 
@@ -221,3 +222,4 @@ All computational models are research-grade and experimental. Results labeled si
 
 *Built with Python · Gradio · scikit-learn · pandas · matplotlib*  
 *© 2026 Oksana Kolisnyk · KOSATIKS GROUP · MIT License*
+
