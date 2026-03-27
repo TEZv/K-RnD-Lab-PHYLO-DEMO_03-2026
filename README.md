@@ -1,132 +1,223 @@
-# K R&D Lab — Computational Biology Research Suite
+﻿<div align="center">
+
+# 🔬 K R&D Lab — SPHERE I / SCIENCE
+
+**Science sphere entry point for K-RnD Lab**
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![HuggingFace](https://img.shields.io/badge/🤗-Live_Demo-yellow)](https://huggingface.co/spaces/K-RnD-Lab/PHYLO-DEMO_03-2026/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Live_Demo-yellow)](https://huggingface.co/spaces/K-RnD-Lab/PHYLO-DEMO_03-2026/)
 [![GitHub](https://img.shields.io/badge/GitHub-K--RnD--Lab-orange)](https://github.com/TEZv/K-RnD-Lab-PHYLO-DEMO_03-2026)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-> **Open-source computational biology research by Oksana Kolisnyk**
-> [kosatiks-group.pp.ua](https://kosatiks-group.pp.ua)
+*Computational approaches to biology, medicine, plant science, ecology, chemistry, and cognition*
 
----
+> ⚠️ Research use only. All models are experimental and hypothesis-generating.
 
-## 🧬 About
-
-This repository contains 10 independent computational biology studies
-spanning RNA therapeutics, nanoparticle delivery, and clinical genomics.
-All tools are open-source, reproducible, and accessible via a single
-interactive demo — no coding required.
-
-> ⚠️ **Research use only.** All models are experimental.
-> Data labeled SIMULATED must not be interpreted as experimental findings.
+</div>
 
 ---
 
-## 🔬 Research Projects
+## 🧪 SPHERE I — SCIENCE
 
-| # | Project | Key Finding | Status |
-|---|---------|-------------|--------|
-| A1 | [BRCA2 miRNA](01_A1-brca2-mirna/) | hsa-miR-148a-3p top silenced miRNA in BRCA2-mut breast cancer | ✅ Complete |
-| A2 | [TP53 siRNA](02_A2-tp53-sirna/) | SPC24, BUB1B, CDC45 — novel SL targets, no existing drugs | ✅ Complete |
-| A3 | [lncRNA-TREM2](03_A3-lncrna-trem2/) | CYTOR→miR-138-5p→AKT1 axis controls TREM2 neuroinflammation | ✅ Complete |
-| A4 | [FGFR3 RNA Drug](04_A4-fgfr3-rna-drug/) | CHEMBL1575701 priority lead, RNA-score 0.793, near-zero toxicity | ✅ Complete |
-| A5 | [OpenVariant ⭐](05_A5-openvariant/) | AUC=0.939 on ClinVar 2026, matches AlphaMissense without deep learning | ✅ Complete |
-| B1 | [LNP Corona ML](06_B1-lnp-corona-ml/) | CHL/HL/PEG molar ratios dominate efficacy prediction (AUC=0.791) | ✅ Complete |
-| B2 | [Liquid Biopsy](07_B2-liquid-biopsy/) | CTHRC1+FHL2+LDHA panel separates cancer vs healthy (AUC=0.992*) | ✅ Complete |
-| B3 | [Flow Corona](08_B3-flow-corona/) | Blood flow accelerates albumin→ApoE exchange 3-4x vs static | ✅ Complete |
-| B4 | [LNP Brain](09_B4-lnp-brain/) | pKa 6.2-6.8 + zeta ±5mV predicts ApoE >20% corona for BBB | ✅ Complete |
-| B5 | [AutoCorona NLP](10_B5-autocorona-nlp/) | protein_source F1=0.71 from PMC abstracts; size/zeta need PDF parser | ✅ Complete |
+This repository is the starting layer for **SPHERE I — SCIENCE** inside K R&D Lab.
+It should not read like only one narrow cluster. It first shows the full science map, and then clearly marks which part is already active in this repository today.
 
-*B2 AUC reflects tissue proteomics proxy, not plasma LNP corona validation.
+### Current science directions
 
----
-
-## 🤗 Interactive Demo
-
-All 10 tools in one Space — no installation required:
-
-[![Open Demo](https://img.shields.io/badge/🤗-Open_Interactive_Demo-yellow?style=for-the-badge)](https://huggingface.co/spaces/K-RnD-Lab/PHYLO-DEMO_03-2026/)
-
----
-
-## 📁 Repository Structure
-
-```
-K-RnD-Lab-PHYLO-03_2026/
+```text
+SPHERE I — SCIENCE
 │
-├── README.md
-├── CITATION.cff
-├── LICENSE
-│
-├── 01_A1-brca2-mirna/
-│   ├── README.md
-│   ├── report.md
-│   ├── execution_trace.ipynb
-│   ├── data/
-│   └── figures/
-│
-├── 02_A2-tp53-sirna/       (same structure)
-├── 03_A3-lncrna-trem2/
-├── 04_A4-fgfr3-rna-drug/
-├── 05_A5-openvariant/
-├── 06_B1-lnp-corona-ml/
-├── 07_B2-liquid-biopsy/
-├── 08_B3-flow-corona/
-├── 09_B4-lnp-brain/
-├── 10_B5-autocorona-nlp/
-│
-└── meta-tool/
-    ├── app.py
-    └── requirements.txt
+├── 🩺 S1 — Biomedical & Oncology
+├── 🌿 S2 — Plant Science & Phytochemistry
+├── 🌾 S3 — Agricultural Biology & Biofertilizers
+├── ⚗️ S4 — Biochemistry & Metabolomics
+├── 🧠 S5 — Neuroscience & Aging
+├── 🌍 S6 — Ecology & Environmental Science
+└── 📚 S7 — Learning, Cognition & Adaptive Systems
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🩺 S1 — Biomedical & Oncology
 
-```bash
-git clone https://github.com/TEZv/K-RnD-Lab-PHYLO-DEMO_03-2026.git
-cd K-RnD-Lab-PHYLO-03_2026
+**Current active repository focus**
 
-# Run the interactive demo locally
-cd meta-tool
-pip install -r requirements.txt
-python app.py
+This repository currently acts as the main active entry point for **S1 — Biomedical & Oncology**.
+It brings together computational models for:
+
+- cancer biology
+- RNA therapeutics
+- nanoparticle delivery
+- biomarkers and liquid biopsy logic
+- rare cancers and frontier leads
+
+### S1 sub-directions
+
+```text
+S1 — Biomedical & Oncology
+│
+├── 🧬 S1-A · PHYLO-GENOMICS    ← Genomics & Variants
+├── 🔬 S1-B · PHYLO-RNA         ← RNA Therapeutics
+├── 💊 S1-C · PHYLO-DRUG        ← Drug Discovery
+├── 🧪 S1-D · PHYLO-LNP         ← Nanoparticle Delivery
+├── 🩸 S1-E · PHYLO-BIOMARKERS  ← Biomarkers & Diagnostics
+└── 🧠 S1-F · PHYLO-RARE        ← Rare Cancers / Frontier
 ```
 
-Or use any individual project notebook:
-```bash
-cd 05_A5-openvariant
-jupyter notebook execution_trace.ipynb
+### Active projects in this repository
+
+| Code | Project | Key finding | Status |
+|---|---|---|---|
+| S1-R1 | [BRCA2 miRNA](01_A1-brca2-mirna/) | hsa-miR-148a-3p top silenced miRNA in BRCA2-mut breast cancer | ✅ Active |
+| S1-R2 | [TP53 siRNA](02_A2-tp53-sirna/) | SPC24, BUB1B, CDC45 as synthetic-lethal leads without existing drugs | ✅ Active |
+| S1-R3 | [lncRNA-TREM2](03_A3-lncrna-trem2/) | CYTOR→miR-138-5p→AKT1 axis in neuroinflammation logic | ✅ Active |
+| S1-R4 | [FGFR3 RNA Drug](04_A4-fgfr3-rna-drug/) | CHEMBL1575701 as priority RNA-directed lead | ✅ Active |
+| S1-R5 | [OpenVariant](05_A5-openvariant/) | AUC=0.939 on ClinVar 2026 without deep learning | ✅ Active |
+| S1-R6 | [LNP Corona ML](06_B1-lnp-corona-ml/) | CHL / HL / PEG ratios dominate efficacy prediction | ✅ Active |
+| S1-R7 | [Liquid Biopsy](07_B2-corona-liquid-biopsy/) | CTHRC1 + FHL2 + LDHA panel separates cancer vs healthy | ✅ Active |
+| S1-R8 | [Flow Corona](08_B3-corona-flow-dynamics/) | blood flow accelerates albumin→ApoE exchange 3–4× | ✅ Active |
+| S1-R9 | [LNP Brain](09_B4-lnp-apoe-bbb/) | pKa 6.2–6.8 + near-neutral zeta predicts ApoE-rich corona | ✅ Active |
+| S1-R10 | [AutoCorona NLP](10_B5-autocorona-nlp/) | structured protein extraction from PMC abstracts | ✅ Active |
+
+### Demo
+
+All active S1 tools are unified in one public demo:
+
+[![Open Demo](https://img.shields.io/badge/Open-Interactive_Demo-yellow?style=for-the-badge)](https://huggingface.co/spaces/K-RnD-Lab/PHYLO-DEMO_03-2026/)
+
+---
+
+## 🌿 S2 — Plant Science & Phytochemistry
+
+**Planned science lane**
+
+Focus:
+- phytochemical profiling
+- plant genome browsing
+- plant-derived anti-cancer compound discovery
+
+```text
+S2 — Plant Science & Phytochemistry
+│
+├── S2-R1  Phytochemical Profiler
+├── S2-R2  Plant Genome Browser
+└── S2-R3  Anti-cancer Screener
 ```
 
 ---
 
-## 📖 Citation
+## 🌾 S3 — Agricultural Biology & Biofertilizers
 
-```bibtex
-@software{kolisnyk2026krdlab,
-  author    = {Kolisnyk, Oksana},
-  title     = {K R&D Lab: Computational Biology Research Suite},
-  year      = {2026},
-  month     = {March},
-  publisher = {GitHub},
-  url       = {https://github.com/TEZv/K-RnD-Lab-PHYLO-DEMO_03-2026},
-  note      = {10 open-source computational biology tools spanning
-               RNA therapeutics, nanoparticle delivery, and genomics}
-}
+**Planned science lane**
+
+Focus:
+- rhizosphere microbiomes
+- biofertilizer prediction
+- soil metabolomics
+
+```text
+S3 — Agricultural Biology & Biofertilizers
+│
+├── S3-R1  Rhizosphere Microbiome
+├── S3-R2  Biofertilizer Predictor
+└── S3-R3  Soil Metabolomics
 ```
+
+---
+
+## ⚗️ S4 — Biochemistry & Metabolomics
+
+**Planned science lane**
+
+Focus:
+- metabolite profiling
+- pathway enrichment
+- healthy vs diseased biochemical signatures
+
+```text
+S4 — Biochemistry & Metabolomics
+│
+├── S4-R1  Metabolite Profiler
+└── S4-R2  Pathway Enrichment
+```
+
+---
+
+## 🧠 S5 — Neuroscience & Aging
+
+**Planned science lane**
+
+Focus:
+- neuroinflammation networks
+- epigenetic aging logic
+- immune checkpoint and neurodegeneration interfaces
+
+```text
+S5 — Neuroscience & Aging
+│
+├── S5-R1  Neuroinflammation lncRNA
+├── S5-R2  Epigenetic Aging Clock
+└── S5-R3  Immune Checkpoint Atlas
+```
+
+---
+
+## 🌍 S6 — Ecology & Environmental Science
+
+**Planned science lane**
+
+Focus:
+- environmental microbiomes
+- biodiversity indices
+- climate × health correlations
+
+```text
+S6 — Ecology & Environmental Science
+│
+├── S6-R1  Environmental Microbiome
+├── S6-R2  Biodiversity Indices
+└── S6-R3  Climate × Health
+```
+
+---
+
+## 📚 S7 — Learning, Cognition & Adaptive Systems
+
+**Science lane for learning and preparation research**
+
+This is where master preparation belongs as a scientific research line.
+Not because admission itself is “science”, but because the subject here is:
+
+- learning systems
+- cognition
+- adaptive training
+- measurable preparation progress
+- human performance over time
+
+```text
+S7 — Learning, Cognition & Adaptive Systems
+│
+├── S7-R1  Master Prep Analytics
+├── S7-R2  Learning Workflow Studies
+└── S7-R3  Adaptive Training Systems
+```
+
+This means:
+- **primary scientific home** → `S7`
+- **optional public-case mirror** → `E4` in the entrepreneurship sphere
+
+---
+
+## 🧭 How to read this repository
+
+- If you want the current active science work, start with **S1** in this repository.
+- If you want the full scientific roadmap, use the `S1–S7` map above.
+- If you want learning / preparation research, treat it as **S7**, not as a random extra initiative.
 
 ---
 
 ## ⚠️ Disclaimer
 
-All computational models are research-grade and experimental.
-Results labeled SIMULATED are hypothesis-generating only and
-require experimental validation before any clinical application.
-This work does not constitute medical advice.
+All computational models are research-grade and experimental. Results labeled simulated require validation before clinical, pharmaceutical, agricultural, educational, or commercial application.
 
----
-
-*Built with Python · Gradio · scikit-learn · XGBoost · matplotlib*
-*© 2026 Oksana Kolisnyk · MIT License*
+*Built with Python · Gradio · scikit-learn · pandas · matplotlib*  
+*© 2026 Oksana Kolisnyk · KOSATIKS GROUP · MIT License*
